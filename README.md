@@ -10,13 +10,17 @@
  
 
 TF-IDF should be used to rank queries if a user types in either of the following: 
+
     python3 query.py --rank=tfidf PATH/TO/STOPWORDS PATH/TO/INDEX
   
 PageRank should be used to rank queries if a user types in the following: 
+
     python3 query.py --rank=pagerank PATH/TO/STOPWORDS PATH/TO/INDEX
 
 If the flag ‘-t’ is specified, output article titles
+
 python3 query.py --rank=tfidf PATH/TO/STOPWORDS PATH/TO/INDEX -t
   
 If the flag ‘-v’ is specified, output title/score pairs
+
 python3 query.py --rank=tfidf PATH/TO/STOPWORDS PATH/TO/INDEX -v

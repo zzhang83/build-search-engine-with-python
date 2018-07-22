@@ -19,8 +19,8 @@ PageRank should be used to rank queries if a user types in the following:
 
 If the flag ‘-t’ is specified, output article titles
 
-python3 query.py --rank=tfidf PATH/TO/STOPWORDS PATH/TO/INDEX -t
+    python3 query.py --rank=tfidf PATH/TO/STOPWORDS PATH/TO/INDEX -t
   
 If the flag ‘-v’ is specified, output title/score pairs
 
-python3 query.py --rank=tfidf PATH/TO/STOPWORDS PATH/TO/INDEX -v
+    python3 query.py --rank=tfidf PATH/TO/STOPWORDS PATH/TO/INDEX -v
